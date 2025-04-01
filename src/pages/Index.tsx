@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { 
@@ -81,10 +80,8 @@ const Index: React.FC = () => {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link to="/dashboard" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Dashboard
-                  </NavigationMenuLink>
+                <Link to="/dashboard" className={navigationMenuTriggerStyle()}>
+                  Dashboard
                 </Link>
               </NavigationMenuItem>
             </NavigationMenuList>
